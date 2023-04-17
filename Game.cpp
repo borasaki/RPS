@@ -1,5 +1,6 @@
 // rock, paper, scissors but advanced where each move has a special effect, suich as the next next move, if successful, does more dmg
 // For each clash that happens, it powers up the next move to hit, stacks nearly indefinitely
+// https://wokwi.com/projects/362262893783791617
 #include "U8glib.h"
 
 U8GLIB_SSD1306_128X64 u8g(U8G_I2C_OPT_DEV_0 | U8G_I2C_OPT_NO_ACK | U8G_I2C_OPT_FAST);
